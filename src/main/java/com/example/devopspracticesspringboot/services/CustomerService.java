@@ -1,7 +1,7 @@
-package com.example.accessingdatajpa.services;
+package com.example.devopspracticesspringboot.services;
 
-import com.example.accessingdatajpa.models.Customer;
-import com.example.accessingdatajpa.repositories.CustomerRepository;
+import com.example.devopspracticesspringboot.models.Customer;
+import com.example.devopspracticesspringboot.repositories.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;

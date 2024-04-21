@@ -1,6 +1,6 @@
-package com.example.accessingdatajpa.repositories;
+package com.example.devopspracticesspringboot.repositories;
 
-import com.example.accessingdatajpa.models.Customer;
+import com.example.devopspracticesspringboot.models.Customer;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

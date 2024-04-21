@@ -1,4 +1,4 @@
-package com.example.accessingdatajpa.models;
+package com.example.devopspracticesspringboot.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

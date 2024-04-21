@@ -1,7 +1,7 @@
-package com.example.accessingdatajpa.controllers;
+package com.example.devopspracticesspringboot.controllers;
 
-import com.example.accessingdatajpa.models.Customer;
-import com.example.accessingdatajpa.services.CustomerService;
+import com.example.devopspracticesspringboot.models.Customer;
+import com.example.devopspracticesspringboot.services.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

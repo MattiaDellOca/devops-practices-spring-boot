@@ -1,7 +1,7 @@
-package com.example.accessingdatajpa;
+package com.example.devopspracticesspringboot;
 
-import com.example.accessingdatajpa.models.Customer;
-import com.example.accessingdatajpa.repositories.CustomerRepository;
+import com.example.devopspracticesspringboot.models.Customer;
+import com.example.devopspracticesspringboot.repositories.CustomerRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -10,12 +10,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class AccessingDataJpaApplication {
-	private static final Logger log = LoggerFactory.getLogger(AccessingDataJpaApplication.class);
+public class DevOpsPracticesSpringBootApplication {
+	private static final Logger log = LoggerFactory.getLogger(DevOpsPracticesSpringBootApplication.class);
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(AccessingDataJpaApplication.class, args);
+		SpringApplication.run(DevOpsPracticesSpringBootApplication.class, args);
 	}
 
 	@Bean
