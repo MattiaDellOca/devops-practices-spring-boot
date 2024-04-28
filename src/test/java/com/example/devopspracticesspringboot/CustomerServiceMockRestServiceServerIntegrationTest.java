@@ -1,4 +1,4 @@
-package com.example.devopspracticesspringboot.services;
+package com.example.devopspracticesspringboot;
 
 import com.example.devopspracticesspringboot.models.Customer;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -7,17 +7,17 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.core.io.Resource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.autoconfigure.web.client.AutoConfigureMockRestServiceServer;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.core.io.Resource;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.web.client.MockRestServiceServer;
 import org.springframework.web.client.RestTemplate;
-import org.springframework.http.MediaType;
-
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.*;
@@ -25,8 +25,9 @@ import static org.springframework.test.web.client.response.MockRestResponseCreat
 
 @SpringBootTest
 @AutoConfigureMockRestServiceServer
+@TestPropertySource(locations="classpath:application-test.properties")
 @ExtendWith(MockitoExtension.class)
-public class CustomerServiceMockRestServiceServerUnitTest {
+public class CustomerServiceMockRestServiceServerIntegrationTest {
     private RestTemplate restTemplate;
     private String uri;
 

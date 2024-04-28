@@ -1,4 +1,5 @@
-# devops-practices-spring-boot
+# DevOps Practices for Spring Boot
+[![codecov](https://codecov.io/gh/MattiaDellOca/devops-practices-spring-boot/branch/main/badge.svg)](https://codecov.io/gh/MattiaDellOca/devops-practices-spring-boot)
 This repository contains a simple Spring Boot application incrementally evolved adopting industry-standard practices of DevOps applications.
 
 ## Prerequisites
