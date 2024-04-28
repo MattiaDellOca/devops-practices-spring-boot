@@ -1,6 +1,15 @@
 # DevOps Practices for Spring Boot
 [![codecov](https://codecov.io/gh/MattiaDellOca/devops-practices-spring-boot/branch/main/badge.svg)](https://codecov.io/gh/MattiaDellOca/devops-practices-spring-boot)
+
 This repository contains a simple Spring Boot application incrementally evolved adopting industry-standard practices of DevOps applications.
+
+## Features
+- 🍃 Sprint Boot Application
+- 📦 Maven Build Tool
+- 🐳 Docker Image
+- 🚀 Continuous Integration with GitHub Actions
+- 🧪 JUnit 5 Testing Framework
+- 📊 Code Coverage with JaCoCo
 
 ## Prerequisites
 - [Java](https://www.java.com/en/) 17 or higher
